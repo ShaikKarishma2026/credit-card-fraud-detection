@@ -1,0 +1,98 @@
+[
+  {
+    "model_name": "Logistic Regression",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "confusion_matrix": [
+      [
+        982,
+        0
+      ],
+      [
+        0,
+        18
+      ]
+    ],
+    "tn": 982,
+    "fp": 0,
+    "fn": 0,
+    "tp": 18,
+    "is_best": true
+  },
+  {
+    "model_name": "Decision Tree",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "confusion_matrix": [
+      [
+        982,
+        0
+      ],
+      [
+        0,
+        18
+      ]
+    ],
+    "tn": 982,
+    "fp": 0,
+    "fn": 0,
+    "tp": 18,
+    "is_best": false
+  },
+  {
+    "model_name": "Random Forest",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "confusion_matrix": [
+      [
+        982,
+        0
+      ],
+      [
+        0,
+        18
+      ]
+    ],
+    "tn": 982,
+    "fp": 0,
+    "fn": 0,
+    "tp": 18,
+    "is_best": false
+  },
+  {
+    "model_name": "Isolation Forest",
+    "accuracy": 0.999,
+    "precision": 0.9474,
+    "recall": 1.0,
+    "f1_score": 0.973,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "confusion_matrix": [
+      [
+        981,
+        1
+      ],
+      [
+        0,
+        18
+      ]
+    ],
+    "tn": 981,
+    "fp": 1,
+    "fn": 0,
+    "tp": 18,
+    "is_best": false
+  }
+]

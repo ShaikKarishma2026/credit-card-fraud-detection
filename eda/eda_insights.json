@@ -1,0 +1,27 @@
+{
+  "dataset_metrics": {
+    "total_transactions": 5000,
+    "legitimate_count": 4910,
+    "fraudulent_count": 90,
+    "fraud_percentage": 1.8,
+    "imbalance_ratio": "1:55"
+  },
+  "findings": {
+    "class_imbalance": "Extreme class skew: Fraud comprises only 1.80% (90 cases) against 4910 legitimate transactions. Standard accuracy would yield ~98.2% by naively predicting all legitimate, necessitating Precision-Recall evaluation and SMOTE/class-weight balancing.",
+    "amount_distribution": "Fraudulent transactions average $236.76, significantly higher than legitimate transactions ($57.03). Fraud exhibits a bimodal signature: micro card-testing charges (<$10) followed by larger burst amounts ($250-$2,000).",
+    "temporal_velocity": "Fraud probability peaks during off-peak night windows (Hours 2:00 - 5:00, reaching 6.9%), when automated fraud scripts exploit delayed cardholder alerting.",
+    "correlation_analysis": {
+      "strongest_negative_features": {
+        "V14": -0.675,
+        "V17": -0.635,
+        "V12": -0.596
+      },
+      "strongest_positive_features": {
+        "V4": 0.529,
+        "V11": 0.459,
+        "V2": 0.405
+      },
+      "summary": "Features V14, V12, V10 exhibit strong negative correlations with fraud, while V4, V11, V2 show strong positive correlations."
+    }
+  }
+}

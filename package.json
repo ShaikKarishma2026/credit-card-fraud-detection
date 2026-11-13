@@ -1,0 +1,27 @@
+{
+  "name": "credit-card-fraud-detection",
+  "version": "1.0.0",
+  "description": "Credit Card Fraud Detection using Machine Learning, EDA, SQL Database, FastAPI and Streamlit",
+  "main": "run.py",
+  "scripts": {
+    "start": "python run.py frontend",
+    "backend": "python run.py backend",
+    "frontend": "python run.py frontend",
+    "train": "python run.py train",
+    "setup-db": "python run.py setup-db",
+    "test": "python run.py test"
+  },
+  "keywords": [
+    "data-science",
+    "fraud-detection",
+    "machine-learning",
+    "scikit-learn",
+    "fastapi",
+    "streamlit",
+    "sql",
+    "eda",
+    "smote"
+  ],
+  "author": "Shaik Karishma",
+  "license": "MIT"
+}

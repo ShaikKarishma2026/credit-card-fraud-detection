@@ -1,0 +1,27 @@
+{
+  "raw_record_count": 5008,
+  "raw_feature_count": 31,
+  "missing_values_detected": {
+    "V1": 6,
+    "Amount": 6
+  },
+  "duplicates_removed": 8,
+  "outliers_treated": [
+    {
+      "index": 15,
+      "old_value": 99999.99,
+      "capped_value": 575.07
+    }
+  ],
+  "engineered_features": [
+    "Hour_of_Day",
+    "Log_Amount",
+    "Amount_Bin"
+  ],
+  "cleaned_record_count": 5000,
+  "final_class_distribution": {
+    "legitimate": 4910,
+    "fraudulent": 90,
+    "fraud_percentage": 1.8
+  }
+}
